@@ -1,0 +1,13 @@
+{
+    "version":  "2.9.8",
+    "extension_id":  "mflfmiibodbccokmmbfbngjbhgmiemco",
+    "published_at":  "2026-11-13T22:10:28Z",
+    "changelog":  "OmniVault Extension v2.9.8: Hỗ trợ người dùng kiểm tra \u0026 cập nhật trực tiếp từ GitHub (gắn huy hiệu NEW, nút Áp dụng ngay 1 chạm, trình cập nhật CapNhat-Tu-GitHub.bat và gói CRX3/Policy cho Windows), tách biệt domain chính/subdomain và hỗ trợ 60+ tài khoản Gmail.",
+    "crx_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v2.9.8/OmniVault-v2.9.8.crx",
+    "crx_pages_url":  "https://minhtuan0506.github.io/omnivault-extension/OmniVault.crx",
+    "crx_sha256":  "205213b8cca7125acea17aa5707ab354ddf15fe3ba212290348e4bc81281c2db",
+    "unpacked_zip_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v2.9.8/OmniVault-GiaiNen-v2.9.8.zip",
+    "unpacked_latest":  "https://minhtuan0506.github.io/omnivault-extension/OmniVault-GiaiNen-latest.zip",
+    "autoupdate_kit_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v2.9.8/OmniVault-TuDongCapNhat-Windows.zip",
+    "release_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/tag/v2.9.8"
+}
