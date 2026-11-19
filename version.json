@@ -1,15 +1,15 @@
 {
-    "version":  "3.1.12",
-    "extension_id":  "mflfmiibodbccokmmbfbngjbhgmiemco",
-    "published_at":  "2026-11-19T16:18:22Z",
-    "changelog":  "Điều tiết tốc độ cuộn chuột mượt mà tại danh sách chọn tài khoản ở ô mật khẩu/tài khoản và Popup (v3.1.12): mỗi nấc lăn chuột đi ~1 dòng (~36–42px) thay vì nhảy 3–5 tài khoản, đồng thời chặn cuộn xuyên ra trang web gây tự đóng menu.",
-    "crx_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.12/OmniVault-v3.1.12.crx",
-    "crx_pages_url":  "https://minhtuan0506.github.io/omnivault-extension/OmniVault.crx",
-    "crx_sha256":  "dca63fc244bfa5732e34621c7160980fd465017ad71e750f3962415f0726a9b9",
-    "unpacked_zip_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.12/OmniVault-GiaiNen-v3.1.12.zip",
-    "unpacked_latest":  "https://minhtuan0506.github.io/omnivault-extension/OmniVault-GiaiNen-latest.zip",
-    "zip_sha256":  "c9aaefac5a3713ad8c1c25b862fbe4118eb7414eb98d79ff6aa7e1eb31267c99",
-    "signature_rsa_b64":  "U3JBNMpzfN2rFPuSktlvvUgVJFvrdOZB00l2P6N2pFC9zbGhfq8Ow0I2OxvHIQ7WZL571OKLMtdYLxYiurD8QGjlFj2XS/CD0Z26DIB7XI1ISXmasmQqi24Wu7iMCsBD21Bo9TCKzlaW+107iNQn6LSNVACUkWiJocCxzZZyceCoMFM+8dfmDAvpTdYAqrVshO7caPDGWJtx7LsD5hhhUVMP9wkA0oKQmf5Nnj0Eca2K1R19b7IXjj3qjGq56ar/yhQZXKzvMzdALltP94x3fBnEHpmX2jVjrxLGhYvvn6aiIe73ZXHmXqiDfXzYXJc68sQyRIAydGK5kOu0RmE/NQ==",
-    "autoupdate_kit_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.12/OmniVault-TuDongCapNhat-Windows.zip",
-    "release_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/tag/v3.1.12"
+  "version": "3.1.13",
+  "extension_id": "mflfmiibodbccokmmbfbngjbhgmiemco",
+  "published_at": "2026-11-19T18:04:46Z",
+  "changelog": "Nâng cấp sâu toàn diện v3.1.13: sửa mở khóa PIN tại ô nhập khi đổi cửa sổ, thêm timeout mạng chống treo Web Lock & tự khôi phục IndexedDB, tối ưu tốc độ trên web SPA nặng, cuộn Touchpad mượt sub-pixel, bảo vệ đóng gói IIFE chống xung đột Service Worker, tự reload khi đĩa đã có bản mới, sửa Hoàn tác chuyển subdomain & gia cố bộ cập nhật Native TLS 1.3.",
+  "crx_url": "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.13/OmniVault-v3.1.13.crx",
+  "crx_pages_url": "https://minhtuan0506.github.io/omnivault-extension/OmniVault.crx",
+  "crx_sha256": "649b1cad95cd7b5fa25ed640c323806863f279989a2bdadd82954bac1edc7419",
+  "unpacked_zip_url": "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.13/OmniVault-GiaiNen-v3.1.13.zip",
+  "unpacked_latest": "https://minhtuan0506.github.io/omnivault-extension/OmniVault-GiaiNen-latest.zip",
+  "zip_sha256": "4d96eabef589135aed45c6b2b753e99040ba2b4cd36056a6d31e3349e98925c0",
+  "signature_rsa_b64": "flgJn2r9tiiX5Z0CtidbSKL2ncL9RLdmI9mmgFwYx1DnupZ92w/CkdaTUVGcF0ohaGYSvbzbH052w2Nyx0lzjX0I5IWpWoBWsznSP/2NvESrYumeyhPoFJ7GhXXDU3egOwI+tEHja45zU9yJqHjtuqkXkrYch3n4cYpmxMI6ly36mcC/LztwLbqsCcYPFIHCRLb5O0IbEYOz5ayLpvbgn6OzxLI8IouTqi8O+nRuOKZCbu8gLcIwUHn45nSdkXIhUYgAM32BitIyd/z1PFVwWIjqCq8ij8BcYZQqluyrsXL6HkPjeZJw9cBwjB90qTxityFGqErLx8Sdk22WWGMnEg==",
+  "autoupdate_kit_url": "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.13/OmniVault-TuDongCapNhat-Windows.zip",
+  "release_url": "https://github.com/Minhtuan0506/omnivault-extension/releases/tag/v3.1.13"
 }
