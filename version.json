@@ -1,15 +1,15 @@
 {
-    "version":  "3.1.11",
+    "version":  "3.1.12",
     "extension_id":  "mflfmiibodbccokmmbfbngjbhgmiemco",
-    "published_at":  "2026-11-19T15:56:34Z",
-    "changelog":  "Sửa khẩn cấp lỗi nhập mã PIN \u0026 Service Worker không khởi chạy ở v3.1.9–v3.1.10 (v3.1.11): loại bỏ trùng tên hằng SHARED_HOSTING_SUFFIXES giữa background.js và crypto_totp.js trong phạm vi Service Worker MV3, bổ sung retry kết nối trên khung mở khóa PIN và unit test khóa chặt chống tái diễn.",
-    "crx_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.11/OmniVault-v3.1.11.crx",
+    "published_at":  "2026-11-19T16:18:22Z",
+    "changelog":  "Điều tiết tốc độ cuộn chuột mượt mà tại danh sách chọn tài khoản ở ô mật khẩu/tài khoản và Popup (v3.1.12): mỗi nấc lăn chuột đi ~1 dòng (~36–42px) thay vì nhảy 3–5 tài khoản, đồng thời chặn cuộn xuyên ra trang web gây tự đóng menu.",
+    "crx_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.12/OmniVault-v3.1.12.crx",
     "crx_pages_url":  "https://minhtuan0506.github.io/omnivault-extension/OmniVault.crx",
-    "crx_sha256":  "fdae795c5900134f3116f4e1d3da6d67c9f003ab4ffd80551c1b4e189458cdcf",
-    "unpacked_zip_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.11/OmniVault-GiaiNen-v3.1.11.zip",
+    "crx_sha256":  "dca63fc244bfa5732e34621c7160980fd465017ad71e750f3962415f0726a9b9",
+    "unpacked_zip_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.12/OmniVault-GiaiNen-v3.1.12.zip",
     "unpacked_latest":  "https://minhtuan0506.github.io/omnivault-extension/OmniVault-GiaiNen-latest.zip",
-    "zip_sha256":  "0b2f3e4d9df0b1a5dc9e123b6716aa5c2d345bb79066a1ac8f5510198ea47cc6",
-    "signature_rsa_b64":  "a61FNR9C2AKKWvvdiwAA0k8FBLTVWD3wHpf+q1SjvjwyNSA0OVs+STHyWh9PkkyIOmkuRe50jmhgS8gA7VrESPgWeV0dB5OC10JhM4tdqzdqc7h7AzrTVIVJ3x21JVJ2X3MTtKnMOurauSEwVGvkW+sP2+4WEdwWeXEYzHnzd16IOwjsE5AVzKnzdYzZCV1obGjwAxZ9pVDv69Pzb6OvHmSAls+4lZWbW/nBnvN0XlN4hsdprlk7bhjiCxeMG4oROTgfVI4ZXQ5F5258Ouug6YcuUTJppTBf02K5NKpVYryOs36OGEnUBLR/USzFObbGI2Ji7qaVLOkwvtujbwf2jg==",
-    "autoupdate_kit_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.11/OmniVault-TuDongCapNhat-Windows.zip",
-    "release_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/tag/v3.1.11"
+    "zip_sha256":  "c9aaefac5a3713ad8c1c25b862fbe4118eb7414eb98d79ff6aa7e1eb31267c99",
+    "signature_rsa_b64":  "U3JBNMpzfN2rFPuSktlvvUgVJFvrdOZB00l2P6N2pFC9zbGhfq8Ow0I2OxvHIQ7WZL571OKLMtdYLxYiurD8QGjlFj2XS/CD0Z26DIB7XI1ISXmasmQqi24Wu7iMCsBD21Bo9TCKzlaW+107iNQn6LSNVACUkWiJocCxzZZyceCoMFM+8dfmDAvpTdYAqrVshO7caPDGWJtx7LsD5hhhUVMP9wkA0oKQmf5Nnj0Eca2K1R19b7IXjj3qjGq56ar/yhQZXKzvMzdALltP94x3fBnEHpmX2jVjrxLGhYvvn6aiIe73ZXHmXqiDfXzYXJc68sQyRIAydGK5kOu0RmE/NQ==",
+    "autoupdate_kit_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.12/OmniVault-TuDongCapNhat-Windows.zip",
+    "release_url":  "https://github.com/Minhtuan0506/omnivault-extension/releases/tag/v3.1.12"
 }
