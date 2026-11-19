@@ -38,23 +38,25 @@
   <main class="wrap">
     <div class="badge">Zero-Knowledge E2EE • Local-First</div>
     <h1>Chính sách Quyền riêng tư / Privacy Policy — OmniVault</h1>
-    <div class="meta"><strong>Hiệu lực / Effective Date:</strong> 2026-11-13 &bull; <strong>Extension:</strong> OmniVault — Mật khẩu &amp; 2FA</div>
+    <div class="meta"><strong>Hiệu lực / Effective Date:</strong> 2026-11-19 &bull; <strong>Extension:</strong> OmniVault — Mật khẩu &amp; 2FA</div>
 
     <h2>Tiếng Việt</h2>
     <ul>
       <li><strong>Mục đích duy nhất:</strong> Hỗ trợ người dùng lưu trữ, tự động điền mật khẩu, sinh mã 2FA TOTP theo từng tên miền/subdomain chính xác và tùy chọn đồng bộ mã hóa đầu-cuối (AES-256-GCM) với ứng dụng OmniVault.</li>
-      <li><strong>Dữ liệu &amp; Lưu trữ cục bộ:</strong> Tên miền trang web, tài khoản, mật khẩu, mã bí mật TOTP và ghi chú do người dùng lưu được lưu trực tiếp trong <code>chrome.storage.local</code>. Ở Chế độ Cục bộ, không có dữ liệu nào rời khỏi trình duyệt.</li>
-      <li><strong>Mã hóa khóa PIN:</strong> Khi người dùng đặt mã PIN, toàn bộ kho mật khẩu trong trình duyệt được mã hóa <strong>AES-256-GCM</strong> với khóa dẫn xuất <strong>PBKDF2-SHA256 (310.000 vòng)</strong>; khóa phiên chỉ lưu tạm trong <code>chrome.storage.session</code> và tự khóa sau 15 phút không thao tác.</li>
-      <li><strong>Đồng bộ đám mây (Tùy chọn):</strong> Chỉ khi người dùng chủ động dán mã kết nối <code>OVB1-...</code> từ điện thoại, dữ liệu mới được mã hóa hoàn toàn phía trình duyệt (Zero-Knowledge E2EE) trước khi gửi qua HTTPS.</li>
+      <li><strong>Dữ liệu &amp; Lưu trữ cục bộ:</strong> Tên miền trang web, tài khoản, mật khẩu, mã bí mật TOTP và ghi chú do người dùng lưu được lưu trực tiếp trong <code>chrome.storage.local</code>. Ở Chế độ Cục bộ, không có bất kỳ dữ liệu kho mật khẩu nào rời khỏi trình duyệt.</li>
+      <li><strong>Mã hóa khóa PIN:</strong> Khi người dùng đặt mã PIN, toàn bộ kho mật khẩu trong trình duyệt được mã hóa <strong>AES-256-GCM</strong> với khóa dẫn xuất <strong>PBKDF2-SHA256 (600.000 vòng</strong>, tự động nâng cấp tương thích ngược từ hồ sơ cũ 310.000 vòng); khóa phiên có hạn thời gian lưu tạm trong <code>chrome.storage.session</code> và tự khóa sau 15 phút không thao tác hoặc khi máy rảnh/khóa màn hình.</li>
+      <li><strong>Đồng bộ đám mây (Tùy chọn):</strong> Chỉ khi người dùng chủ động dán mã kết nối <code>OVB2-...</code> (tương thích ngược với <code>OVB1-...</code>) từ điện thoại, dữ liệu mới được mã hóa hoàn toàn phía trình duyệt (Zero-Knowledge E2EE, HKDF-SHA256 + AES-256-GCM + AAD) trước khi gửi qua HTTPS.</li>
+      <li><strong>Kiểm tra phiên bản cập nhật (Chỉ đọc, không gửi dữ liệu người dùng):</strong> Tiện ích định kỳ thực hiện yêu cầu chỉ-đọc tới GitHub Releases / GitHub Pages (<code>Minhtuan0506/omnivault-extension</code>) để kiểm tra xem có phiên bản mới hay không. Yêu cầu này không đính kèm bất kỳ dữ liệu cá nhân, mật khẩu, tài khoản, mã định danh hay lịch sử duyệt web nào.</li>
       <li><strong>Không thu thập / Không bán dữ liệu:</strong> Không theo dõi lịch sử duyệt web, không quảng cáo, không telemetry, không sử dụng mã thực thi từ xa (remote code) và không chia sẻ dữ liệu với bất kỳ bên thứ ba nào.</li>
     </ul>
 
     <h2>English</h2>
     <ul>
-      <li><strong>Single Purpose:</strong> OmniVault provides strict domain/subdomain-isolated password autofill, login capture with undo, RFC-6238 TOTP 2FA code generation, and optional client-side end-to-end encrypted (AES-256-GCM) sync with the OmniVault mobile app.</li>
-      <li><strong>Local-First Storage:</strong> User-saved authentication items (domain, username, password, TOTP secret, notes) are stored locally on the device via <code>chrome.storage.local</code>. In Standalone Local Mode, zero data is transmitted off-device.</li>
-      <li><strong>Optional Client-Side Encryption &amp; PIN Lock:</strong> Enabling PIN lock encrypts local vault data with <strong>AES-256-GCM</strong> using a <strong>PBKDF2-SHA256 (310,000 iterations)</strong> derived key stored transiently in <code>chrome.storage.session</code> (15-minute auto-lock).</li>
-      <li><strong>Optional Zero-Knowledge Sync:</strong> Only when paired by the user via an <code>OVB1-...</code> pairing code, encrypted AES-256-GCM blobs are transmitted over HTTPS for cross-device sync.</li>
+      <li><strong>Single Purpose:</strong> OmniVault provides strict domain/subdomain-isolated password autofill, login capture with confirmation &amp; undo, RFC-6238 TOTP 2FA code generation, and optional client-side end-to-end encrypted (AES-256-GCM) sync with the OmniVault mobile app.</li>
+      <li><strong>Local-First Storage:</strong> User-saved authentication items (domain, username, password, TOTP secret, notes) are stored locally on the device via <code>chrome.storage.local</code>. In Standalone Local Mode, zero vault or user data is transmitted off-device.</li>
+      <li><strong>Optional Client-Side Encryption &amp; PIN Lock:</strong> Enabling PIN lock encrypts local vault data with <strong>AES-256-GCM</strong> using a <strong>PBKDF2-SHA256 (600,000 iterations</strong>, with seamless backward-compatible upgrade from legacy 310,000-iteration vaults) derived key stored transiently with expiration in <code>chrome.storage.session</code> (15-minute idle/sleep auto-lock).</li>
+      <li><strong>Optional Zero-Knowledge Sync:</strong> Only when paired by the user via an <code>OVB2-...</code> pairing code (backward-compatible with <code>OVB1-...</code>), encrypted HKDF-SHA256 + AES-256-GCM blobs are transmitted over HTTPS for cross-device sync.</li>
+      <li><strong>Read-Only Update Check (Zero User Data Sent):</strong> The extension performs periodic read-only requests to GitHub Releases / GitHub Pages (<code>Minhtuan0506/omnivault-extension</code>) solely to check for newer extension releases. No user credentials, personal data, identifiers, or browsing history are ever transmitted.</li>
       <li><strong>No Tracking &amp; Limited Use Compliance:</strong> OmniVault collects zero browsing telemetry, serves no ads, sells no data, executes no remote code, and complies with the Chrome Web Store User Data Policy (including Limited Use requirements).</li>
     </ul>
   </main>
