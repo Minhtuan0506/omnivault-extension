@@ -1,15 +1,15 @@
 {
-  "version": "3.1.17",
+  "version": "3.1.18",
   "extension_id": "mflfmiibodbccokmmbfbngjbhgmiemco",
-  "published_at": "2026-11-20T00:17:37Z",
-  "changelog": "Nâng cấp Nhập mật khẩu Trình duyệt chuẩn 2026-2027 (v3.1.17): thêm nút 1 chạm tự bắt file CSV/JSON vừa xuất trong Downloads (tự nhận diện ngay khi quay lại tab sau khi bấm Xuất), tự ghi đè 0x00 và xóa sạch file mật khẩu thô sau khi đẩy E2EE thành công, và hỗ trợ chuẩn FIDO CXF 1.0 (Credential Exchange Format).",
-  "crx_url": "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.17/OmniVault-v3.1.17.crx",
+  "published_at": "2026-11-20T00:31:24Z",
+  "changelog": "Sửa lỗi Bat-TuDongCapNhat-100.bat, CapNhat-Tu-GitHub.bat và native_updater_host.cmd bị nháy tắt ngay khi mở trên Windows (v3.1.18): chuẩn hóa toàn bộ file .bat/.cmd sang dòng Windows CRLF không BOM (chống lỗi lệch byte-offset của cmd.exe với chcp 65001), bọc khối lệnh và pause chống lệch khi tự cập nhật, bổ sung .gitattributes và khóa kiểm thử tự động.",
+  "crx_url": "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.18/OmniVault-v3.1.18.crx",
   "crx_pages_url": "https://minhtuan0506.github.io/omnivault-extension/OmniVault.crx",
-  "crx_sha256": "c0e3dda2f41da0d703ec15dcf2533d71539362db2eab1efc3909b2b0bbf3d9cd",
-  "unpacked_zip_url": "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.17/OmniVault-GiaiNen-v3.1.17.zip",
+  "crx_sha256": "6b15ddeb6f42ce2534c4f95447420f483e693bf5e5d3b8338b2dda87902140db",
+  "unpacked_zip_url": "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.18/OmniVault-GiaiNen-v3.1.18.zip",
   "unpacked_latest": "https://minhtuan0506.github.io/omnivault-extension/OmniVault-GiaiNen-latest.zip",
-  "zip_sha256": "9080c605ccc1e715551281239a7975ee526c3496675254d6c747571e836084c0",
-  "signature_rsa_b64": "MZ4rWAuU+QsL3cZTVqkgnM7TR87q4mT5RzCQ0WcH8p91qw2wzskDBEx7wfTq0Vh2OI/mFXhrwHIMWGJFyndUnvloxQfmFZEDGV1EGGDs3P89ENPcCe65AQOn4xho+3SjzoFK8/+xPMxS2JC2uXNPu7yNbgSWsNcVv4QKzuHu7AA7AhGvGCqCKcRB9L3tTCxSzOH74FoHFTukoD2HvPXDCXl9ueEMZ4zF3V4NQMT2jfi/FqN1/4XRAEc1NtZu8LxLzXpIqra5zr9G4bb/GuWj2l4HOiO0pmCi1Cb8exhIkHIMyGtT574JhYHPF23GrAtSKNUA9cNmyOGRXa995eprMw==",
-  "autoupdate_kit_url": "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.17/OmniVault-TuDongCapNhat-Windows.zip",
-  "release_url": "https://github.com/Minhtuan0506/omnivault-extension/releases/tag/v3.1.17"
+  "zip_sha256": "27c1392d0628f5a39d58175715d1b98c5cd2f6aa02eaa19577a668c068534c9c",
+  "signature_rsa_b64": "SYx5GsG94DHR512ROY5nGjXNDIq3/CLCA0Qf5gDOeNWxjfPOiGSCN//RJWrWfVjeJPlu4EcRfipBOfscViOOe4l+ZItrfOi+byiJqm1HsDdqIqRmVdnrQoXCZ2g3pAiD+KYam2i3trp0tgOp4DBQVtOuynayVCLlMbVkjltxmBr59on/vp74tOgIxbn1IwST51WHqPK9+2e+sPBgwhCc8+/8to1zNrpomNsl+hOySMSTD8fh07yroDUbuwMiNvdY0q8lKFvAuAwtxu+MhiMpK+UADnwqozGozIO8qqnSTzRbHWVl/3q3gC7x0BwBeTuO451bG4WX45F9UMENsRnkew==",
+  "autoupdate_kit_url": "https://github.com/Minhtuan0506/omnivault-extension/releases/download/v3.1.18/OmniVault-TuDongCapNhat-Windows.zip",
+  "release_url": "https://github.com/Minhtuan0506/omnivault-extension/releases/tag/v3.1.18"
 }
